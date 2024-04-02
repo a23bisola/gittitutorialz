@@ -1,1 +1,3 @@
-edutijgn m,jhjkh
+ginx: It's commonly used as a reverse proxy server for Django applications. Nginx can serve static files directly without forwarding the request to the Django application. You typically configure Nginx to serve static files by specifying the directory where your static files are located in the Nginx configuration file. This offloads the task of serving static files from the Django application, resulting in improved performance.
+
+Gunicorn: Gunicorn is a WSGI HTTP server for Python web applications, including Django. While Gunicorn can serve static files, it's not the most efficient way to handle static files, especially in production environments. By default, Gunicor
